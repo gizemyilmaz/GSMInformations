@@ -43,6 +43,7 @@ public class GSMInformationsActivity extends Activity {
 	TextView textView8;
 	TextView textView9;
 	TextView textView10;
+	TextView textView11;//texbox11 eklendi..
 	SQLiteDatabase sldGSM;
 	int iSgnStg, iSgnStgDbm, iNoise, iLat = 0, iLang = 0, iBatt;
 	String strModel;
@@ -72,6 +73,7 @@ public class GSMInformationsActivity extends Activity {
 		sldGSM = atdGSMInfs.getWritableDatabase();
 
 		MyListener = new MyPhoneStateListener();
+		
 		Tel = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 
 		final LocationManager mlocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
@@ -125,7 +127,16 @@ public class GSMInformationsActivity extends Activity {
 											+ "?z=15"));
 
 							startActivity(intGetMap);
-						}
+						}//
+						if ((iLat > 0) && (iLang > 0)) {
+
+							Intent intGetMap = new Intent(Intent.ACTION_VIEW,
+									Uri.parse("geo:" + String.valueOf(iLat)
+											+ "," + String.valueOf(iLang)
+											+ "?z=15"));
+
+							startActivity(intGetMap);
+						}//enlem ve boylam degerleri alindi konum bilgisini bulmak icin..
 						else
 						{
 							

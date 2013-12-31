@@ -10,7 +10,13 @@ public class AddToDatabase extends SQLiteOpenHelper {
 	public AddToDatabase(Context context, String name, CursorFactory factory,
 			int version) {
 		super(context, name, factory, version);
-	}
+	}//
+	public class AddToDatabase extends SQLiteOpenHelper {
+
+		public AddToDatabase(Context context, String name, CursorFactory factory,
+				int version) {
+			super(context, name, factory, version);
+		}//Veritabanýna class eklendi..
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {

@@ -104,9 +104,9 @@ public class GSMInformationsActivity extends Activity {
 						cvTmp.put("noise", iNoise);
 						cvTmp.put("latitude", iLat);
 						cvTmp.put("langitude", iLang);
-						cvTmp.put("model", strModel);
-						cvTmp.put("battery", iBatt);
-						cvTmp.put("process_date", new Date().toString());
+						cvTmp.put("model", strModel);//model bilgisi alýndý..
+						cvTmp.put("battery", iBatt);//batarya durum bilgisi alýndý..
+						cvTmp.put("process_date", new Date().toString());//iþlemci tarih bilgisi alýndý..
 
 						sldGSM.insert("gsm_information", null, cvTmp);
 

@@ -98,11 +98,11 @@ public class GSMInformationsActivity extends Activity {
 												Intent.ACTION_BATTERY_CHANGED));
 
 						ContentValues cvTmp = new ContentValues();
-						cvTmp.put("signal_strength", iSgnStg);
-						cvTmp.put("signal_strength_dbm", iSgnStgDbm);
-						cvTmp.put("noise", iNoise);
-						cvTmp.put("latitude", iLat);
-						cvTmp.put("langitude", iLang);
+						cvTmp.put("signal_strength", iSgnStg);//sinyal gucu bilgisi..
+						cvTmp.put("signal_strength_dbm", iSgnStgDbm);//dbm cinsinden sinyal gucu bilgisi..
+						cvTmp.put("noise", iNoise);//gurultu bilgisi..
+						cvTmp.put("latitude", iLat);//enlem bilgisi..
+						cvTmp.put("langitude", iLang);//boylam bilgisi..
 						cvTmp.put("model", strModel);//model bilgisi alindi..
 						cvTmp.put("battery", iBatt);//batarya durum bilgisi alindi..
 						cvTmp.put("process_date", new Date().toString());//islemci tarih bilgisi alindi..

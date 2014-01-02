@@ -38,10 +38,10 @@ public final class R {
     }//progressbar ve textbox larin konumlandirilmasi..
     public static final class layout {
         public static final int main=0x7f030000;
-    }
+    } 
     public static final class string {
         public static final int app_name=0x7f040000;
         public static final int button_title=0x7f040001;
         public static final int button_title2=0x7f040002;
-    }
+    } //aplikasyon isim ve buton basliklari konumlamasi..
 }

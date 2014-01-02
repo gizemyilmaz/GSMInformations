@@ -191,7 +191,7 @@ public class GSMInformationsActivity extends Activity {
 					+ android.os.Build.VERSION.RELEASE);
 
 			strModel = textView6.getText().toString();
-
+//
 			if (Tel.getNetworkType() == TelephonyManager.NETWORK_TYPE_EDGE) {
 
 				textView7.setText("3G");
@@ -200,7 +200,7 @@ public class GSMInformationsActivity extends Activity {
 
 				textView7.setText("3G");
 
-			}
+			}//baglanti tipi 3G mi?
 			
 			textView8.setText(Tel.getNetworkOperatorName());
 			

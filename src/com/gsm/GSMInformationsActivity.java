@@ -165,7 +165,7 @@ public class GSMInformationsActivity extends Activity {
 
 		}
 
-	};
+	};//yayin alici class yapisi..
 
 	private class MyPhoneStateListener extends PhoneStateListener {
 

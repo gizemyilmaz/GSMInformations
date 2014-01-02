@@ -75,9 +75,9 @@ public class GSMInformationsActivity extends Activity {
 		
 		Tel = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 
-		final LocationManager mlocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+		final LocationManager mlocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);//konum yoneticisi sistemden alindi..
 
-		final LocationListener mlocListener = new MyLocationListener();
+		final LocationListener mlocListener = new MyLocationListener();//konum dinleyicisi alindi..
 
 		((Button) findViewById(R.id.btnGetGSMInfs))
 				.setOnClickListener(new OnClickListener() {

@@ -245,7 +245,7 @@ public class GSMInformationsActivity extends Activity {
 			iLat = (int) location.getLatitude();
 			iLang = (int) location.getLongitude();
 
-		}
+		}//konum bilgisi alindi..
 
 		public void onProviderDisabled(String provider) {
 			// TODO Auto-generated method stub

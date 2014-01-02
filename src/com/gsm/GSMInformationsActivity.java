@@ -229,7 +229,7 @@ public class GSMInformationsActivity extends Activity {
 			progressBar3.incrementProgressBy(signalStrength.getEvdoSnr());
 			textView3.setText(String.valueOf(signalStrength.getEvdoSnr()));
 
-			iNoise = signalStrength.getEvdoSnr();
+			iNoise = signalStrength.getEvdoSnr();//gurultu orani tanimlamasi..
 			//sinyal gucu degeri alindi ve dbm e cevrildi..
 
 		}

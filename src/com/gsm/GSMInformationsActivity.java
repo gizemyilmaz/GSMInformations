@@ -152,7 +152,7 @@ public class GSMInformationsActivity extends Activity {
 					}
 				});
 
-	}
+	}// GSM Aktivasyon bilgisi class tanimlamasi..
 
 	private BroadcastReceiver mBatInfoReceiver = new BroadcastReceiver() {
 

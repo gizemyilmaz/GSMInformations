@@ -65,6 +65,7 @@ public class GSMInformationsActivity extends Activity {
 		textView6 = (TextView) findViewById(R.id.textView6);
 		textView7 = (TextView) findViewById(R.id.textView7);
 		textView8 = (TextView) findViewById(R.id.textView8);
+
 		//texboxlar olusturuldu...
 
 		AddToDatabase atdGSMInfs = new AddToDatabase(getApplicationContext(),"GSM", null, 1);

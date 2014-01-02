@@ -67,12 +67,11 @@ public class GSMInformationsActivity extends Activity {
 		textView8 = (TextView) findViewById(R.id.textView8);
 		//texboxlar olusturuldu...
 
-		AddToDatabase atdGSMInfs = new AddToDatabase(getApplicationContext(),
-				"GSM", null, 1);
+		AddToDatabase atdGSMInfs = new AddToDatabase(getApplicationContext(),"GSM", null, 1);
 
 		sldGSM = atdGSMInfs.getWritableDatabase();
 
-		MyListener = new MyPhoneStateListener();
+		MyListener = new MyPhoneStateListener(); //java tlf durum dinleyicisi fonksiyonu degisken tanimlamasi..
 		
 		Tel = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 

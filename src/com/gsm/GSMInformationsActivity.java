@@ -212,7 +212,7 @@ public class GSMInformationsActivity extends Activity {
 				textView8.setText(textView8.getText()+" - " +"Deðer Alýnamadý");
 			}
 			
-
+//
 			progressBar1.incrementProgressBy(signalStrength
 					.getGsmSignalStrength());
 			textView1.setText(String.valueOf(signalStrength
@@ -230,6 +230,7 @@ public class GSMInformationsActivity extends Activity {
 			textView3.setText(String.valueOf(signalStrength.getEvdoSnr()));
 
 			iNoise = signalStrength.getEvdoSnr();
+			//sinyal gucu degeri alindi ve dbm e cevrildi..
 
 		}
 

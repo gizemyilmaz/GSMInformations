@@ -252,6 +252,8 @@ public class GSMInformationsActivity extends Activity {
 
 			iLat = (int) location.getLatitude();
 			iLang = (int) location.getLongitude();
+			//
+			iLang = (int) location.getLongitude();//google mapse baglanti yapildi
 
 		}//konum bilgisi alindi..
 

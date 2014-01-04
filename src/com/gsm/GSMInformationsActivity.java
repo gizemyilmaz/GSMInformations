@@ -211,7 +211,13 @@ public class GSMInformationsActivity extends Activity {
 				textView8.setText(textView8.getText() + " - " + String.valueOf(cl.getCid()));
 			} catch (Exception e) {
 				textView8.setText(textView8.getText()+" - " +"Deðer Alýnamadý");
+			}//
+			try {
+				textView8.setText(textView8.getText() + " - " + String.valueOf(cl.getCid()));
+			} catch (Exception e) {
+				textView8.setText(textView8.getText()+" - " +"Deðer Alýnamadý");
 			}
+			//try catch blogu eklendi
 			
 //
 			progressBar1.incrementProgressBy(signalStrength

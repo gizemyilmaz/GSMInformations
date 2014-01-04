@@ -171,6 +171,7 @@ public class GSMInformationsActivity extends Activity {
 	private class MyPhoneStateListener extends PhoneStateListener {
 
 		@Override
+		
 		public void onSignalStrengthsChanged(SignalStrength signalStrength) {
 			super.onSignalStrengthsChanged(signalStrength);
 
@@ -187,7 +188,23 @@ public class GSMInformationsActivity extends Activity {
 				textView2.setTextColor(Color.RED);
 
 			}
+			//
+			public void onSignalStrengthsChanged(SignalStrength signalStrength) {
+				super.onSignalStrengthsChanged(signalStrength);
 
+				if (signalStrength.getCdmaDbm() > -30) {
+
+					textView2.setTextColor(Color.GREEN);
+
+				} else if (signalStrength.getCdmaDbm() > -81) {
+
+					textView2.setTextColor(Color.YELLOW);
+
+				} else if (signalStrength.getCdmaDbm() > -91) {
+
+					textView2.setTextColor(Color.RED);
+
+				}// sinayl uzunlugu degistirildi..
 			textView6.setText(android.os.Build.MODEL + " -"
 					+ android.os.Build.VERSION.RELEASE);
 

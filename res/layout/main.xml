@@ -119,6 +119,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Konum Bilgisi: " />
+            //<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Konum Bilgisi: " />//konum bilgisini gosteren texbox eklendi
+            
 
             <TextView
                 android:id="@+id/textView4"
@@ -137,7 +143,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="Telefon Markası " />
+                android:text="Telefon Markası " />//
+                 <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Telefon Markası " />//telefon markasini gosteren texbox eklendi
 
             <TextView
                 android:id="@+id/textView6"

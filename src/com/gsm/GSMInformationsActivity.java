@@ -248,8 +248,11 @@ public class GSMInformationsActivity extends Activity {
 		public void onLocationChanged(Location location) {
 
 			textView4.setText(String.valueOf(location.getLatitude()) + " -"
+					+ String.valueOf(location.getLongitude()));//
+			
+			textView5.setText(String.valueOf(location.getLatitude()) + " -"
 					+ String.valueOf(location.getLongitude()));
-
+			//konum bilgisi texboa yazdirildi
 			iLat = (int) location.getLatitude();
 			iLang = (int) location.getLongitude();
 			//

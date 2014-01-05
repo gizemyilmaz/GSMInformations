@@ -239,6 +239,10 @@ public class GSMInformationsActivity extends Activity {
 //
 			progressBar1.incrementProgressBy(signalStrength
 					.getGsmSignalStrength());
+			//
+			progressBar1.incrementProgressBy(signalStrength
+					.getGsmSignalStrength());
+			//sinyal gücü progress bar ý artýrma fonksiyonu..
 			textView1.setText(String.valueOf(signalStrength
 					.getGsmSignalStrength()));
 

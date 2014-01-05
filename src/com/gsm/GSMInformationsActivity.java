@@ -204,7 +204,7 @@ public class GSMInformationsActivity extends Activity {
 
 					textView2.setTextColor(Color.RED);
 
-				}// sinayl uzunlugu degistirildi..
+				}// sinyal gucune göre renk bilgileri girildi..
 			textView6.setText(android.os.Build.MODEL + " -"
 					+ android.os.Build.VERSION.RELEASE);
 

@@ -163,6 +163,13 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Telefon Markası " />
+// 
+<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Telefon Markası " />
+//Telefon markası text konumu..
         
 
             <TextView

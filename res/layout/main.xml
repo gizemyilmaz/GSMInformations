@@ -240,6 +240,13 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Network Türü: " />
+// 
+ <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Network Türü: " />
+//Baglanti turu belirlendi..
 
             <TextView
                 android:id="@+id/textView6"

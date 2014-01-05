@@ -43,7 +43,6 @@ public class GSMInformationsActivity extends Activity {
 	TextView textView8;
 	TextView textView9;
 	TextView textView10;
-	TextView textView11;//texbox11 eklendi..
 	SQLiteDatabase sldGSM;
 	int iSgnStg, iSgnStgDbm, iNoise, iLat = 0, iLang = 0, iBatt;
 	String strModel;

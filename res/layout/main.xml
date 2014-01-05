@@ -190,6 +190,12 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Batarya " />/
+// <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Batarya " />/
+//Batarya durumunu gösteren text konumu..
                
                 <TextView
                 android:layout_width="wrap_content"

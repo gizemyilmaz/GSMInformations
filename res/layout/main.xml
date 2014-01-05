@@ -98,7 +98,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
+//                android:text="Gürültü Oranı: " />
+<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:text="Gürültü Oranı: " />
+//"Gürültü orani" text konumu..
 
             <ProgressBar
                 android:id="@+id/progressBar3"

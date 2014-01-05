@@ -265,6 +265,13 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Operatör: " />
+//
+ <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Operatör: " />
+//Operator turu belirlendi..
 
             <TextView
                 android:id="@+id/textView7"

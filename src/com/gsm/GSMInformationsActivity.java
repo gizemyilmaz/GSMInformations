@@ -289,9 +289,7 @@ public class GSMInformationsActivity extends Activity {
 
 		}
 
-		public void onStatusChanged(String provider, int status, Bundle extras) {
-
-		}
+	
 
 	}
 

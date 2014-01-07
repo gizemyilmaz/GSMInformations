@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -13,30 +13,12 @@
             android:id="@+id/tableRow1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" >
-            //table eklendi
-            <TableLayout
-        android:id="@+id/tableLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-
-        <TableRow
-            android:id="@+id/tableRow1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-            //
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Sinyal Gücü: " />
-//
- <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Sinyal Gücü: " />
-//"Sinyal gücü" text konumu..
 
             <ProgressBar
                 android:id="@+id/progressBar1"
@@ -44,15 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:max="32"                
-                android:paddingRight="5dp" />\
-                //<ProgressBar
-                android:id="@+id/progressBar1"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:max="32"                
-                android:paddingRight="5dp" />//progress bar olusturuldu
-        
+                android:paddingRight="5dp" />
 
             <TextView
                 android:id="@+id/textView1"
@@ -98,13 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-//                android:text="Gürültü Oranı: " />
-<TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
                 android:text="Gürültü Oranı: " />
-//"Gürültü orani" text konumu..
 
             <ProgressBar
                 android:id="@+id/progressBar3"
@@ -132,18 +100,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Konum Bilgisi: " />
-//  <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Konum Bilgisi: " />
-//Konum bilgisi text konumu..
-            //<TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Konum Bilgisi: " />//konum bilgisini gosteren texbox eklendi
-            
 
             <TextView
                 android:id="@+id/textView4"
@@ -163,14 +119,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Telefon Markası " />
-// 
-<TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Telefon Markası " />
-//Telefon markası text konumu..
-        
 
             <TextView
                 android:id="@+id/textView6"
@@ -189,19 +137,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="Batarya " />/
-// <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Batarya " />/
-//Batarya durumunu gösteren text konumu..
-               
-                <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Batarya " />/ //batarya bilgisi texboxa yazildi
+                android:text="Batarya " />
 
             <TextView
                 android:id="@+id/textView7"
@@ -240,157 +176,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Network Türü: " />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-         //   <TextView
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-// 
- <TextView
->>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
-=======
-// 
- <TextView
->>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
-=======
-// 
- <TextView
->>>>>>> d973d3c790cfd0fdb8bd3fa014c9b247daa67af4
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Network Türü: " />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            //network turu belirlendi
-            
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Baglanti turu belirlendi..
->>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
-=======
-//Baglanti turu belirlendi..
->>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
-=======
-//Baglanti turu belirlendi..
->>>>>>> d973d3c790cfd0fdb8bd3fa014c9b247daa67af4
 
             <TextView
                 android:id="@+id/textView6"
@@ -409,157 +194,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Operatör: " />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            //
-            <TextView
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//
- <TextView
->>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
-=======
-//
- <TextView
->>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
-=======
-//
- <TextView
->>>>>>> d973d3c790cfd0fdb8bd3fa014c9b247daa67af4
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"
-                android:text="Operatör: " />
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-            //operator ismi 
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
-=======
-//Operator turu belirlendi..
->>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
-=======
-//Operator turu belirlendi..
->>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
-=======
-//Operator turu belirlendi..
->>>>>>> d973d3c790cfd0fdb8bd3fa014c9b247daa67af4
 
             <TextView
                 android:id="@+id/textView7"

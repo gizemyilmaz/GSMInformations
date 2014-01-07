@@ -65,19 +65,17 @@ public class GSMInformationsActivity extends Activity {
 		textView7 = (TextView) findViewById(R.id.textView7);
 		textView8 = (TextView) findViewById(R.id.textView8);
 
-		//texboxlar olusturuldu...
-
-		AddToDatabase atdGSMInfs = new AddToDatabase(getApplicationContext(),"GSM", null, 1);
+		AddToDatabase atdGSMInfs = new AddToDatabase(getApplicationContext(),
+				"GSM", null, 1);
 
 		sldGSM = atdGSMInfs.getWritableDatabase();
 
-		MyListener = new MyPhoneStateListener(); //java tlf durum dinleyicisi fonksiyonu degisken tanimlamasi..
-		
+		MyListener = new MyPhoneStateListener();
 		Tel = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 
-		final LocationManager mlocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);//konum yoneticisi sistemden alindi..
+		final LocationManager mlocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
-		final LocationListener mlocListener = new MyLocationListener();//konum dinleyicisi alindi..
+		final LocationListener mlocListener = new MyLocationListener();
 
 		((Button) findViewById(R.id.btnGetGSMInfs))
 				.setOnClickListener(new OnClickListener() {
@@ -98,14 +96,14 @@ public class GSMInformationsActivity extends Activity {
 												Intent.ACTION_BATTERY_CHANGED));
 
 						ContentValues cvTmp = new ContentValues();
-						cvTmp.put("signal_strength", iSgnStg);//sinyal gucu bilgisi..
-						cvTmp.put("signal_strength_dbm", iSgnStgDbm);//dbm cinsinden sinyal gucu bilgisi..
-						cvTmp.put("noise", iNoise);//gurultu bilgisi..
-						cvTmp.put("latitude", iLat);//enlem bilgisi..
-						cvTmp.put("langitude", iLang);//boylam bilgisi..
-						cvTmp.put("model", strModel);//model bilgisi alindi..
-						cvTmp.put("battery", iBatt);//batarya durum bilgisi alindi..
-						cvTmp.put("process_date", new Date().toString());//islemci tarih bilgisi alindi..
+						cvTmp.put("signal_strength", iSgnStg);
+						cvTmp.put("signal_strength_dbm", iSgnStgDbm);
+						cvTmp.put("noise", iNoise);
+						cvTmp.put("latitude", iLat);
+						cvTmp.put("langitude", iLang);
+						cvTmp.put("model", strModel);
+						cvTmp.put("battery", iBatt);
+						cvTmp.put("process_date", new Date().toString());
 
 						sldGSM.insert("gsm_information", null, cvTmp);
 
@@ -126,16 +124,7 @@ public class GSMInformationsActivity extends Activity {
 											+ "?z=15"));
 
 							startActivity(intGetMap);
-						}//
-						if ((iLat > 0) && (iLang > 0)) {
-
-							Intent intGetMap = new Intent(Intent.ACTION_VIEW,
-									Uri.parse("geo:" + String.valueOf(iLat)
-											+ "," + String.valueOf(iLang)
-											+ "?z=15"));
-
-							startActivity(intGetMap);
-						}//enlem ve boylam degerleri alindi konum bilgisini bulmak icin..
+						}
 						else
 						{
 							
@@ -151,7 +140,7 @@ public class GSMInformationsActivity extends Activity {
 					}
 				});
 
-	}// GSM Aktivasyon bilgisi class tanimlamasi..
+	}
 
 	private BroadcastReceiver mBatInfoReceiver = new BroadcastReceiver() {
 
@@ -165,12 +154,11 @@ public class GSMInformationsActivity extends Activity {
 
 		}
 
-	};//yayin alici class yapisi..
+	};
 
 	private class MyPhoneStateListener extends PhoneStateListener {
 
 		@Override
-		
 		public void onSignalStrengthsChanged(SignalStrength signalStrength) {
 			super.onSignalStrengthsChanged(signalStrength);
 
@@ -187,28 +175,12 @@ public class GSMInformationsActivity extends Activity {
 				textView2.setTextColor(Color.RED);
 
 			}
-			//
-			public void onSignalStrengthsChanged(SignalStrength signalStrength) {
-				super.onSignalStrengthsChanged(signalStrength);
 
-				if (signalStrength.getCdmaDbm() > -30) {
-
-					textView2.setTextColor(Color.GREEN);
-
-				} else if (signalStrength.getCdmaDbm() > -81) {
-
-					textView2.setTextColor(Color.YELLOW);
-
-				} else if (signalStrength.getCdmaDbm() > -91) {
-
-					textView2.setTextColor(Color.RED);
-
-				}// sinyal gucune göre renk bilgileri girildi..
 			textView6.setText(android.os.Build.MODEL + " -"
 					+ android.os.Build.VERSION.RELEASE);
 
 			strModel = textView6.getText().toString();
-//
+
 			if (Tel.getNetworkType() == TelephonyManager.NETWORK_TYPE_EDGE) {
 
 				textView7.setText("3G");
@@ -217,7 +189,7 @@ public class GSMInformationsActivity extends Activity {
 
 				textView7.setText("3G");
 
-			}//baglanti tipi 3G mi?
+			}
 			
 			textView8.setText(Tel.getNetworkOperatorName());
 			
@@ -227,21 +199,11 @@ public class GSMInformationsActivity extends Activity {
 				textView8.setText(textView8.getText() + " - " + String.valueOf(cl.getCid()));
 			} catch (Exception e) {
 				textView8.setText(textView8.getText()+" - " +"Deðer Alýnamadý");
-			}//
-			try {
-				textView8.setText(textView8.getText() + " - " + String.valueOf(cl.getCid()));
-			} catch (Exception e) {
-				textView8.setText(textView8.getText()+" - " +"Deðer Alýnamadý");
 			}
-			//try catch blogu eklendi
 			
-//
+
 			progressBar1.incrementProgressBy(signalStrength
 					.getGsmSignalStrength());
-			//
-			progressBar1.incrementProgressBy(signalStrength
-					.getGsmSignalStrength());
-			//sinyal gücü progress bar ý artýrma fonksiyonu..
 			textView1.setText(String.valueOf(signalStrength
 					.getGsmSignalStrength()));
 
@@ -256,8 +218,7 @@ public class GSMInformationsActivity extends Activity {
 			progressBar3.incrementProgressBy(signalStrength.getEvdoSnr());
 			textView3.setText(String.valueOf(signalStrength.getEvdoSnr()));
 
-			iNoise = signalStrength.getEvdoSnr();//gurultu orani tanimlamasi..
-			//sinyal gucu degeri alindi ve dbm e cevrildi..
+			iNoise = signalStrength.getEvdoSnr();
 
 		}
 
@@ -268,17 +229,12 @@ public class GSMInformationsActivity extends Activity {
 		public void onLocationChanged(Location location) {
 
 			textView4.setText(String.valueOf(location.getLatitude()) + " -"
-					+ String.valueOf(location.getLongitude()));//
-			
-			textView5.setText(String.valueOf(location.getLatitude()) + " -"
 					+ String.valueOf(location.getLongitude()));
-			//konum bilgisi texboa yazdirildi
+
 			iLat = (int) location.getLatitude();
 			iLang = (int) location.getLongitude();
-			//
-			iLang = (int) location.getLongitude();//google mapse baglanti yapildi
 
-		}//konum bilgisi alindi..
+		}
 
 		public void onProviderDisabled(String provider) {
 			// TODO Auto-generated method stub
@@ -289,7 +245,9 @@ public class GSMInformationsActivity extends Activity {
 
 		}
 
-	
+		public void onStatusChanged(String provider, int status, Bundle extras) {
+
+		}
 
 	}
 

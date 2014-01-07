@@ -2,5 +2,5 @@
 package com.gsm;
 
 public final class BuildConfig {
-	public final static boolean DEBUG = true;
-} //configurasyon yapilandirmasi class olarak tanimlandi..
+    public final static boolean DEBUG = true;
+}

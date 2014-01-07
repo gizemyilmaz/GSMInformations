@@ -14,7 +14,7 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-    	public static final int btnDispGoogleMaps=0x7f050014;
+        public static final int btnDispGoogleMaps=0x7f050014;
         public static final int btnGetGSMInfs=0x7f050013;
         public static final int progressBar1=0x7f050002;
         public static final int progressBar2=0x7f050004;
@@ -35,13 +35,13 @@ public final class R {
         public static final int textView6=0x7f05000b;
         public static final int textView7=0x7f05000d;
         public static final int textView8=0x7f050012;
-    }//progressbar ve textbox larin konumlandirilmasi..
+    }
     public static final class layout {
         public static final int main=0x7f030000;
-    } 
+    }
     public static final class string {
         public static final int app_name=0x7f040000;
         public static final int button_title=0x7f040001;
         public static final int button_title2=0x7f040002;
-    } //aplikasyon isim ve buton basliklari konumlamasi..
+    }
 }

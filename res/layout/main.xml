@@ -240,13 +240,157 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Network Türü: " />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+         //   <TextView
+=======
 // 
  <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+// 
+ <TextView
+>>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
+=======
+// 
+ <TextView
+>>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
+=======
+// 
+ <TextView
+>>>>>>> d973d3c790cfd0fdb8bd3fa014c9b247daa67af4
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Network Türü: " />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            //network turu belirlendi
+            
+=======
 //Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
+=======
+//Baglanti turu belirlendi..
+>>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
+=======
+//Baglanti turu belirlendi..
+>>>>>>> d973d3c790cfd0fdb8bd3fa014c9b247daa67af4
 
             <TextView
                 android:id="@+id/textView6"
@@ -265,13 +409,157 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Operatör: " />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            //
+            <TextView
+=======
 //
  <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//
+ <TextView
+>>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
+=======
+//
+ <TextView
+>>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
+=======
+//
+ <TextView
+>>>>>>> d973d3c790cfd0fdb8bd3fa014c9b247daa67af4
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:text="Operatör: " />
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            //operator ismi 
+=======
 //Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 8f76db44dc120d15f0eee365da1e0a3dbd1820f3
+=======
+//Operator turu belirlendi..
+>>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
+=======
+//Operator turu belirlendi..
+>>>>>>> 7e55b3e392393e54d3cefdc8b7da725663c9df22
+=======
+//Operator turu belirlendi..
+>>>>>>> d973d3c790cfd0fdb8bd3fa014c9b247daa67af4
 
             <TextView
                 android:id="@+id/textView7"
